@@ -19,10 +19,4 @@ create_date:{
 default:Date.now()
 }
 });
-var Users=module.exports=mongoose.model('Login',mongoseschema);
-
-// module.exports.logindata =function (callback) {
-//     console.log("in login Data")
-//     console.log(callback)
-//     Login.find(callback);
-// };
+var Users=module.exports=mongoose.model('Login',mongoseschema); //
